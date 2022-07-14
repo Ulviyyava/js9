@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #CA1016;
+    padding: 20px 0;
+}
+
+header .logo a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+i{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+
+i span{
+    position: absolute;
+    font-size: 12px;
+    color: red;
+    background: #fff;
+    padding: 3px 6px;
+    border-radius: 100%;
+    top: -14px;
+    right: -14px;
+}
+
+#Products{
+    margin-top: 3rem;
+}
+
+#Products img{
+    height: 250px;
+    object-fit: cover;
+}
+
+table img{
+    width: 100px;
+}
+
+input{
+    width: 20%;
+}
+
